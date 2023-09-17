@@ -7,6 +7,7 @@
   display: block;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  color: rgb(4, 111, 95);
 }
 
 .form input {
@@ -16,7 +17,7 @@
   font-size: 1.5rem;
   padding: 0.5rem;
   border-radius: 4px;
-  background-color: #f7f5ef;
+  background-color: #e7e4d8;
   border: none;
   border-bottom: 2px solid #494844;
   border-bottom-right-radius: 0;
@@ -26,9 +27,9 @@
 
 .form button {
   font: inherit;
-  background-color: #ebb002;
-  border: 1px solid #ebb002;
-  color: #201d0f;
+  background-color: rgb(3, 89, 85);
+  border: 1px solid rgb(3, 89, 85);
+  color: white;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
@@ -36,6 +37,6 @@
 
 .form button:hover,
 .form button:active {
-  background-color: #ebc002;
-  border-color: #ebc002;
+  background-color: rgb(6, 56, 53);
+  border-color: rgb(6, 56, 53);
 }

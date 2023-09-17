@@ -8,9 +8,8 @@ const NewTodo: React.FC<{ onAddTodo: (text: string) => void }> = (props) => {
     event.preventDefault();
 
     const enteredText = todoTextInputRef.current!.value;
-
     if (enteredText.trim().length === 0) {
-      // throw an error
+      //throw an error
       return;
     }
 
@@ -19,7 +18,7 @@ const NewTodo: React.FC<{ onAddTodo: (text: string) => void }> = (props) => {
 
   return (
     <form className={classes.form} onSubmit={submitHandler}>
-      <label htmlFor="text">Todo text</label>
+      <label htmlFor="text">Your To Do's for the DAY!!!</label>
       <input
         type="text"
         id="text"
